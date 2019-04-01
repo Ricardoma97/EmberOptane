@@ -1,0 +1,7 @@
+<ul>
+	{{#each @tweets as |tweet|}}
+		<TweetCard @tweet={{tweet}} />
+	{{else}}
+		No hay tweets
+	{{/each}}
+</ul>
